@@ -42,4 +42,337 @@
     
   </entry>
   
+  <entry>
+    <title>Learning Graphviz</title>
+    <link href="/2016-05-16-learning-graphviz/"/>
+    <id>/2016-05-16-learning-graphviz/</id>
+    <published>2016-05-16T08:23:00.000Z</published>
+    <updated>2016-05-17T17:03:25.000Z</updated>
+    
+    <content type="html">
+
+
+&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Graphviz &amp;#x4ECB;&amp;#x7ECD;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;p&gt;
+Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684;&amp;#x8D1D;&amp;#x5C14;&amp;#x5B9E;&amp;#x9A8C;&amp;#x5BA4;&amp;#x4E2D;&amp;#x79D1;&amp;#x5B66;&amp;#x5BB6;&amp;#x5F00;&amp;#x53D1;&amp;#x7684;&amp;#xFF0C;&amp;#x5176;&amp;#x4F7F;&amp;#x7528;dot&amp;#x7ED8;&amp;#x56FE;&amp;#x8BED;&amp;#x8A00;&amp;#x4F5C;&amp;#x4E3A;&amp;#x5176;&amp;#x5F00;&amp;#x53D1;&amp;#x8BED;&amp;#x8A00;&amp;#x3002;
+&amp;#x5E9F;&amp;#x8BDD;&amp;#x4E0D;&amp;#x591A;&amp;#x8BF4;&amp;#xFF0C;&amp;#x5F00;&amp;#x5E72;&amp;#xFF01;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; &amp;#x5B89;&amp;#x88C5;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+&lt;p&gt;
+&amp;#x5728;mac&amp;#x4E0B;&amp;#x9762;&amp;#x53EF;&amp;#x4EE5;&amp;#x4F7F;&amp;#x7528;homebrew&amp;#x8FDB;&amp;#x884C;&amp;#x5B89;&amp;#x88C5;&amp;#x3002;&amp;#x5177;&amp;#x4F53;&amp;#x5982;&amp;#x4E0B;&amp;#xFF1A;
+&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;brew install graphviz&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;brew install graphviz --with-bindings&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-3&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; &amp;#x4F7F;&amp;#x7528;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
+&lt;p&gt;
+&amp;#x65B0;&amp;#x5EFA;&amp;#x4E00;&amp;#x4E2A; .dot &amp;#x6587;&amp;#x4EF6;, &amp;#x5728;&amp;#x5176;&amp;#x4E2D;&amp;#x6DFB;&amp;#x52A0;&amp;#x4EE5;&amp;#x4E0B;&amp;#x5185;&amp;#x5BB9;
+&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;label class=&quot;org-src-name&quot;&gt;LOOK&lt;/label&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;graph name {
+a -- b;
+}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&amp;#x4FDD;&amp;#x5B58;&amp;#x540E;&amp;#xFF0C;&amp;#x8FD0;&amp;#x884C;&amp;#x4E0B;&amp;#x9762;&amp;#x547D;&amp;#x4EE4;
+&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;dot -Tpng **.dot -o **.png&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&amp;#x6CE8;&amp;#x610F;&amp;#x201C;-o&amp;#x201D;, &amp;#x6211;&amp;#x5C31;&amp;#x662F;&amp;#x5FD8;&amp;#x6389;&amp;#x4E86;&amp;#x8FD9;&amp;#x4E2A;&amp;#x53C2;&amp;#x6570;&amp;#xFF0C;&amp;#x7136;&amp;#x540E;&amp;#x6789;&amp;#x8D39;&amp;#x4E86;&amp;#x5F88;&amp;#x591A;&amp;#x65F6;&amp;#x95F4;&amp;#x67E5;&amp;#x627E;&amp;#x8D44;&amp;#x6599;&amp;#xFF0C;&amp;#x8FD8;&amp;#x4EE5;&amp;#x4E3A;&amp;#x662F;&amp;#x4E2A;bug&amp;#xFF0C;&amp;#x7EC6;&amp;#x5FC3;&amp;#xFF01;
+&lt;/p&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/graphviz-exp0.png&quot; alt=&quot;graphviz-exp0.png&quot;&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-4&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; &amp;#x793A;&amp;#x4F8B;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-4-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-4-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.1&lt;/span&gt; &amp;#x7B80;&amp;#x5355;&amp;#x56FE;&amp;#x4F8B;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-1&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;graph name{
+a--b;
+b--c;
+b--d;
+d--a;
+}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;graph name{
+rankdir=LR;
+a--b;
+b--c;
+b--d;
+d--a;
+}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-4-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-4-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.2&lt;/span&gt; &amp;#x6709;&amp;#x5411;&amp;#x56FE;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-2&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;digraph name{
+a-&amp;gt;b;
+b-&amp;gt;c;
+b-&amp;gt;d;
+d-&amp;gt;a;
+}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;span class=&quot;underline&quot;&gt;&amp;#x6CE8;&amp;#x610F;&amp;#x4E0A;&amp;#x9762;&amp;#x7684;&amp;#x201C;digraph&amp;#x201D;&amp;#xFF0C;&amp;#x8868;&amp;#x793A;&amp;#x6709;&amp;#x5411;&amp;#x56FE;&lt;/span&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-4-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-4-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.3&lt;/span&gt; &amp;#x5E26;&amp;#x6807;&amp;#x7B7E;&amp;#xFF08;&amp;#x6CE8;&amp;#x91CA;&amp;#xFF09;&amp;#x7684;&amp;#x6709;&amp;#x5411;&amp;#x56FE;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-3&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;digraph name{
+a [label=&amp;quot;Teacher&amp;quot;]
+b [label=&amp;quot;Pupil&amp;quot;]
+a-&amp;gt;b [label = &amp;quot;Instrcutions&amp;quot;, fontcolor=darkgreen];
+b-&amp;gt;c;
+b-&amp;gt;d;
+d-&amp;gt;a;
+}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-4-4&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-4-4&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.4&lt;/span&gt; &amp;#x589E;&amp;#x52A0;&amp;#x989C;&amp;#x8272;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-4&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;digraph name{
+a [label=&amp;quot;Teacher&amp;quot;, color=Blue, fontcolor=Red, fontsize=24, shape=box]
+b [label=&amp;quot;Pupil&amp;quot;, color=Green, fontcolor=Pink]
+a-&amp;gt;b [label = &amp;quot;Instrcutions&amp;quot;, fontcolor=darkgreen];
+b-&amp;gt;c;
+b-&amp;gt;d;
+d-&amp;gt;a;
+}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-4-5&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-4-5&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.5&lt;/span&gt; &amp;#x5F62;&amp;#x72B6;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-5&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;digraph name{
+a [label=&amp;quot;Teacher&amp;quot;, color=Blue, fontcolor=Red, fontsize=24, shape=box]
+b [label=&amp;quot;Pupil&amp;quot;, color=Green, fontcolor=Pink]
+c [label=&amp;quot;student&amp;quot;, shape=box, style=filled, fillcolor=yellow]
+d [label=&amp;quot;School&amp;quot;, shape=octagon, style=filled, fillcolor=yellow]
+a-&amp;gt;b [label = &amp;quot;Instrcutions&amp;quot;, fontcolor=darkgreen];
+b-&amp;gt;c;
+b-&amp;gt;d;
+d-&amp;gt;a;
+}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+&amp;#x8FD9;&amp;#x513F;&amp;#x4F60;&amp;#x53EF;&amp;#x4EE5;&amp;#x9009;&amp;#x62E9;&amp;#x7684;&amp;#x5F62;&amp;#x72B6;&amp;#x6709;: 
+box, polygon, ellipse, oval, circle, point, egg, triangle, plaintext,  
+diamond, trapezium, parallelogram, house, pentagon, hexagon, septagon, 
+octagon, doublecircle, doubleoctagon, tripleoctagon &amp;#x66F4;&amp;#x591A;&amp;#x7684;&amp;#x5F62;&amp;#x72B6;&amp;#x770B;&lt;a href=&quot;http://www.graphviz.org/content/node-shapes&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x8FD9;&amp;#x91CC;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-5&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; &amp;#x9AD8;&amp;#x7EA7;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-5-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-5-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;5.1&lt;/span&gt; &amp;#x8282;&amp;#x7701;&amp;#x65F6;&amp;#x95F4;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-5-1&quot;&gt;
+&lt;p&gt;
+&amp;#x5355;&amp;#x72EC;&amp;#x5730;&amp;#x53BB;&amp;#x5B9A;&amp;#x4E49;&amp;#x6BCF;&amp;#x4E00;&amp;#x4E2A;&amp;#x8282;&amp;#x70B9;&amp;#x5176;&amp;#x5B9E;&amp;#x5F88;&amp;#x8D39;&amp;#x65F6;&amp;#x95F4;&amp;#x7684;&amp;#xFF0C; &amp;#x89C1;&amp;#x4E0B;&amp;#x9762;&amp;#x8FD9;&amp;#x4E2A;&amp;#x6280;&amp;#x5DE7;
+&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;digraph name{
+nodesep=1.0 //&amp;#x589E;&amp;#x52A0;&amp;#x8282;&amp;#x70B9;&amp;#x4E4B;&amp;#x95F4;&amp;#x7684;&amp;#x8DDD;&amp;#x79BB;
+node [color=Red, fontname=Courier, shape=box] //&amp;#x6240;&amp;#x6709;&amp;#x8282;&amp;#x70B9;
+edge [color=Blue, style=dashed] //&amp;#x6240;&amp;#x6709;&amp;#x8FDE;&amp;#x63A5;&amp;#x7EBF;
+a [label=&amp;quot;Teacher&amp;quot;, color=Blue, fontcolor=Red, fontsize=24, shape=box]
+b [label=&amp;quot;Pupil&amp;quot;, color=Green, fontcolor=Pink]
+a-&amp;gt;b [label = &amp;quot;Instrcutions&amp;quot;, fontcolor=darkgreen];
+b-&amp;gt;{c d e}
+d-&amp;gt;{f g}
+c-&amp;gt;h
+e-&amp;gt;m
+}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+&amp;#x5C42;&amp;#x7EA7;
+&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;digraph name{
+nodesep=1.0 //&amp;#x589E;&amp;#x52A0;&amp;#x8282;&amp;#x70B9;&amp;#x4E4B;&amp;#x95F4;&amp;#x7684;&amp;#x8DDD;&amp;#x79BB;
+node [color=Red, fontname=Courier, shape=box] //&amp;#x6240;&amp;#x6709;&amp;#x8282;&amp;#x70B9;
+edge [color=Blue, style=dashed] //&amp;#x6240;&amp;#x6709;&amp;#x8FDE;&amp;#x63A5;&amp;#x7EBF;
+a [label=&amp;quot;Teacher&amp;quot;, color=Blue, fontcolor=Red, fontsize=24, shape=box]
+b [label=&amp;quot;Pupil&amp;quot;, color=Green, fontcolor=Pink]
+a-&amp;gt;b [label = &amp;quot;Instrcutions&amp;quot;, fontcolor=darkgreen];
+b-&amp;gt;{c d e}
+d-&amp;gt;{f g}
+c-&amp;gt;h
+e-&amp;gt;m
+m-&amp;gt;j
+{rank=same; h f g j}
+}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-5-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-5-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;5.2&lt;/span&gt; Samples&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-5-2&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-5-2-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-5-2-1&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;5.2.1&lt;/span&gt; &amp;#x6709;&amp;#x9650;&amp;#x72B6;&amp;#x6001;&amp;#x673A;&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-5-2-1&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;digraph finite_state_machine {
+    rankdir=LR;
+    size=&amp;quot;8,5&amp;quot;
+    node [shape = circle];
+    S0 -&amp;gt; S1 [ label = &amp;quot;Lift Nozzle&amp;quot; ]
+    S1 -&amp;gt; S0 [ label = &amp;quot;Replace Nozzle&amp;quot; ]
+    S1 -&amp;gt; S2 [ label = &amp;quot;Authorize Pump&amp;quot; ]
+    S2 -&amp;gt; S0 [ label = &amp;quot;Replace Nozzle&amp;quot; ]
+    S2 -&amp;gt; S3 [ label = &amp;quot;Pull Trigger&amp;quot; ]
+    S3 -&amp;gt; S2 [ label = &amp;quot;Release Trigger&amp;quot; ]
+}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-5-2-2&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-5-2-2&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;5.2.2&lt;/span&gt; &amp;#x6570;&amp;#x636E;&amp;#x6D41;&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-5-2-2&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;digraph dfd{    
+    node[shape=record]
+    store1 [label=&amp;quot;&amp;lt;f0&amp;gt; left|&amp;lt;f1&amp;gt; Some data store&amp;quot;];
+    proc1 [label=&amp;quot;{&amp;lt;f0&amp;gt; 1.0|&amp;lt;f1&amp;gt; Some process here\n\n\n}&amp;quot; shape=Mrecord];
+    enti1 [label=&amp;quot;Customer&amp;quot; shape=box];
+    store1:f1 -&amp;gt; proc1:f0;
+    enti1-&amp;gt; proc1:f0;
+}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;digraph dfd2{
+    node[shape=record]
+    subgraph level0{
+    enti1 [label=&amp;quot;Customer&amp;quot; shape=box];
+    enti2 [label=&amp;quot;Manager&amp;quot; shape=box];
+    }
+    subgraph cluster_level1{
+		    label =&amp;quot;Level 1&amp;quot;;
+		    proc1 [label=&amp;quot;{&amp;lt;f0&amp;gt; 1.0|&amp;lt;f1&amp;gt; One process here\n\n\n}&amp;quot; shape=Mrecord];
+		    proc2 [label=&amp;quot;{&amp;lt;f0&amp;gt; 2.0|&amp;lt;f1&amp;gt; Other process here\n\n\n}&amp;quot; shape=Mrecord];
+		    store1 [label=&amp;quot;&amp;lt;f0&amp;gt;    |&amp;lt;f1&amp;gt; Data store one&amp;quot;];
+		    store2 [label=&amp;quot;&amp;lt;f0&amp;gt;   |&amp;lt;f1&amp;gt; Data store two&amp;quot;];
+		    {rank=same; store1, store2}
+
+    }
+    enti1 -&amp;gt; proc1
+    enti2 -&amp;gt; proc2
+    store1 -&amp;gt; proc1
+    store2 -&amp;gt; proc2
+    proc1 -&amp;gt; store2
+    store2 -&amp;gt; proc1 
+}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-6&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; org-mode&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
+&lt;ol class=&quot;org-ol&quot;&gt;
+&lt;li&gt;&amp;#x5B89;&amp;#x88C5;graphviz&amp;#x5230;&amp;#x7CFB;&amp;#x7EDF;&amp;#x76F4;&amp;#x63A5;&amp;#x6267;&amp;#x884C;&amp;#x7684;&amp;#x4F4D;&amp;#x7F6E;&amp;#x3002;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x4F7F;&amp;#x7528;&amp;lt;s[TAB], &amp;#x751F;&amp;#x6210;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&amp;#x3002;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x53C2;&amp;#x6570;&amp;#x4F7F;&amp;#x7528;dot :file ./img/example1.png :cmdline -Kdot -Tpng
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+&amp;lt;br&amp;gt;
+.#+begin&lt;sub&gt;src&lt;/sub&gt; dot :file ./img/example1.png :cmdline -Kdot -Tpng
+&amp;lt;br&amp;gt;
+.#+end&lt;sub&gt;src&lt;/sub&gt;
+&amp;lt;br&amp;gt;
+&lt;/p&gt;
+&lt;ol class=&quot;org-ol&quot;&gt;
+&lt;li&gt;&amp;#x5728;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&amp;#x4F7F;&amp;#x7528;C-c C-c&amp;#x6267;&amp;#x884C;&amp;#x4EE3;&amp;#x7801;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-7&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; &amp;#x603B;&amp;#x7ED3;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-7&quot;&gt;
+&lt;p&gt;
+&amp;#x505A;PPT&amp;#x65F6;&amp;#xFF0C;&amp;#x4F7F;&amp;#x7528;graphviz&amp;#x5BFC;&amp;#x51FA;&amp;#x4E3A;PDF&amp;#xFF0C;&amp;#x77AC;&amp;#x95F4;&amp;#x9AD8;&amp;#x5927;&amp;#x4E0A;&amp;#xFF0C;&amp;#x548C;org-mode&amp;#x7B80;&amp;#x76F4;&amp;#x662F;&amp;#x7EDD;&amp;#x914D;&amp;#xFF0C;&amp;#x76F4;&amp;#x63A5;&amp;#x5BFC;&amp;#x51FA;&amp;#x5230;blog&amp;#x3002;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+Last Updated 2016-05-18 Wed 01:03.&lt;br&gt;Render by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
+</content>
+    
+    <summary type="html">
+    
+      
+
+
+&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Graphviz &amp;#x4ECB;&amp;#x7ECD;&lt;/h2
+    
+    </summary>
+    
+      <category term="software" scheme="/categories/software/"/>
+    
+    
+      <category term="software" scheme="/tags/software/"/>
+    
+      <category term="graphviz" scheme="/tags/graphviz/"/>
+    
+  </entry>
+  
 </feed>
