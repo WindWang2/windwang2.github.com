@@ -47,7 +47,7 @@
     <link href="/2016-05-16-learning-graphviz/"/>
     <id>/2016-05-16-learning-graphviz/</id>
     <published>2016-05-16T08:23:00.000Z</published>
-    <updated>2016-05-17T17:03:25.000Z</updated>
+    <updated>2016-05-17T17:23:40.000Z</updated>
     
     <content type="html">
 
@@ -80,11 +80,12 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 &amp;#x65B0;&amp;#x5EFA;&amp;#x4E00;&amp;#x4E2A; .dot &amp;#x6587;&amp;#x4EF6;, &amp;#x5728;&amp;#x5176;&amp;#x4E2D;&amp;#x6DFB;&amp;#x52A0;&amp;#x4EE5;&amp;#x4E0B;&amp;#x5185;&amp;#x5BB9;
 &lt;/p&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;label class=&quot;org-src-name&quot;&gt;LOOK&lt;/label&gt;
+
 &lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;graph name {
 a -- b;
 }&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/div&gt;
+
 &lt;p&gt;
 &amp;#x4FDD;&amp;#x5B58;&amp;#x540E;&amp;#xFF0C;&amp;#x8FD0;&amp;#x884C;&amp;#x4E0B;&amp;#x9762;&amp;#x547D;&amp;#x4EE4;
 &lt;/p&gt;
@@ -94,12 +95,8 @@ a -- b;
 &lt;/div&gt;
 &lt;p&gt;
 &amp;#x6CE8;&amp;#x610F;&amp;#x201C;-o&amp;#x201D;, &amp;#x6211;&amp;#x5C31;&amp;#x662F;&amp;#x5FD8;&amp;#x6389;&amp;#x4E86;&amp;#x8FD9;&amp;#x4E2A;&amp;#x53C2;&amp;#x6570;&amp;#xFF0C;&amp;#x7136;&amp;#x540E;&amp;#x6789;&amp;#x8D39;&amp;#x4E86;&amp;#x5F88;&amp;#x591A;&amp;#x65F6;&amp;#x95F4;&amp;#x67E5;&amp;#x627E;&amp;#x8D44;&amp;#x6599;&amp;#xFF0C;&amp;#x8FD8;&amp;#x4EE5;&amp;#x4E3A;&amp;#x662F;&amp;#x4E2A;bug&amp;#xFF0C;&amp;#x7EC6;&amp;#x5FC3;&amp;#xFF01;
+&lt;img src=&quot;./assets/img/graphviz-exp0.png&quot; alt=&quot;graphviz-exp0.png&quot;&gt;
 &lt;/p&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;./assets/img/graphviz-exp0.png&quot; alt=&quot;graphviz-exp0.png&quot;&gt;
-&lt;/p&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-4&quot; class=&quot;outline-2&quot;&gt;
@@ -353,7 +350,7 @@ m-&amp;gt;j
 &lt;/div&gt;
 &lt;/div&gt;
 
-Last Updated 2016-05-18 Wed 01:03.&lt;br&gt;Render by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
+Last Updated 2016-05-18 Wed 01:23.&lt;br&gt;Render by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
 </content>
     
     <summary type="html">
