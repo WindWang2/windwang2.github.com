@@ -47,7 +47,7 @@
     <link href="windwang2.github.io/2016-05-16-learning-graphviz/"/>
     <id>windwang2.github.io/2016-05-16-learning-graphviz/</id>
     <published>2016-05-16T08:23:00.000Z</published>
-    <updated>2016-05-18T02:33:56.000Z</updated>
+    <updated>2016-05-18T02:37:16.000Z</updated>
     
     <content type="html">
 
@@ -359,15 +359,12 @@ m-&amp;gt;j
 &lt;/li&gt;
 &lt;li&gt;&amp;#x4F7F;&amp;#x7528;&amp;lt;s [TAB], &amp;#x751F;&amp;#x6210;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&amp;#x3002;
 &lt;/li&gt;
-&lt;li&gt;&amp;#x53C2;&amp;#x6570;&amp;#x4F7F;&amp;#x7528;dot :file ./img/example1.png :cmdline -Kdot -Tpng
+&lt;li&gt;&amp;#x53C2;&amp;#x6570;&amp;#x4F7F;&amp;#x7528;+dot :file ./img/example1.png :cmdline -Kdot -Tpng+
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;pre class=&quot;example&quot;&gt;
 #+begin_src dot :file ./img/example1.png :cmdline -Kdot -Tpng
 &lt;/pre&gt;
-&lt;p&gt;
-#+END&lt;sub&gt;SRC&lt;/sub&gt;
-&lt;/p&gt;
 &lt;ol class=&quot;org-ol&quot;&gt;
 &lt;li&gt;&amp;#x5728;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&amp;#x4F7F;&amp;#x7528;C-c C-c&amp;#x6267;&amp;#x884C;&amp;#x4EE3;&amp;#x7801;
 &lt;/li&gt;
@@ -383,7 +380,7 @@ m-&amp;gt;j
 &lt;/div&gt;
 &lt;/div&gt;
 
-Last Updated 2016-05-18 Wed 10:33.&lt;br&gt;Render by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
+Last Updated 2016-05-18 Wed 10:37.&lt;br&gt;Render by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
 </content>
     
     <summary type="html">
