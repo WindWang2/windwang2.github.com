@@ -47,7 +47,7 @@
     <link href="windwang2.github.io/2016/05-16-learning-graphviz/"/>
     <id>windwang2.github.io/2016/05-16-learning-graphviz/</id>
     <published>2016-05-16T08:23:00.000Z</published>
-    <updated>2016-05-18T06:02:59.000Z</updated>
+    <updated>2016-05-18T06:15:54.000Z</updated>
     
     <content type="html">
 
@@ -100,7 +100,7 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;learning-graphviz/graphviz-exp0.png&quot; alt=&quot;graphviz-exp0.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;graphviz-exp0.png&quot; alt=&quot;graphviz-exp0.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -124,13 +124,8 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 
 &lt;p&gt;
 &amp;#x7ED3;&amp;#x679C;&amp;#xFF1A;
+&lt;img src=&quot;graphviz-exp1.png&quot; alt=&quot;graphviz-exp1.png&quot;&gt;
 &lt;/p&gt;
-
-
-&lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp1.png&quot; alt=&quot;graphviz-exp1.png&quot;&gt;
-&lt;/p&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -154,7 +149,7 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp2.png&quot; alt=&quot;graphviz-exp2.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;graphviz-exp2.png&quot; alt=&quot;graphviz-exp2.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -178,7 +173,7 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp3.png&quot; alt=&quot;graphviz-exp3.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;graphviz-exp3.png&quot; alt=&quot;graphviz-exp3.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -209,7 +204,7 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp4.png&quot; alt=&quot;graphviz-exp4.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;graphviz-exp4.png&quot; alt=&quot;graphviz-exp4.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -235,9 +230,8 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 &lt;/p&gt;
 
 
-
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp5.png&quot; alt=&quot;graphviz-exp5.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;graphviz-exp5.png&quot; alt=&quot;graphviz-exp5.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -266,7 +260,7 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp6.png&quot; alt=&quot;graphviz-exp6.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;graphviz-exp6.png&quot; alt=&quot;graphviz-exp6.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -304,13 +298,14 @@ octagon, doublecircle, doubleoctagon, tripleoctagon &amp;#x66F4;&amp;#x591A;&amp
 }&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/div&gt;
 
+
 &lt;p&gt;
 &amp;#x7ED3;&amp;#x679C;&amp;#xFF1A;
 &lt;/p&gt;
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp7.png&quot; alt=&quot;graphviz-exp7.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;graphviz-exp7.png&quot; alt=&quot;graphviz-exp7.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -340,13 +335,13 @@ octagon, doublecircle, doubleoctagon, tripleoctagon &amp;#x66F4;&amp;#x591A;&amp
 &lt;/p&gt;
 
 
-
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp8.png&quot; alt=&quot;graphviz-exp8.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;graphviz-exp8.png&quot; alt=&quot;graphviz-exp8.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+
 &lt;div id=&quot;outline-container-sec-5-2&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-5-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;5.2&lt;/span&gt; Samples&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-5-2&quot;&gt;
@@ -374,11 +369,12 @@ octagon, doublecircle, doubleoctagon, tripleoctagon &amp;#x66F4;&amp;#x591A;&amp
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp9.png&quot; alt=&quot;graphviz-exp9.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;graphviz-exp9.png&quot; alt=&quot;graphviz-exp9.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+
 &lt;div id=&quot;outline-container-sec-5-2-2&quot; class=&quot;outline-4&quot;&gt;
 &lt;h4 id=&quot;sec-5-2-2&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;5.2.2&lt;/span&gt; &amp;#x6570;&amp;#x636E;&amp;#x6D41;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-5-2-2&quot;&gt;
@@ -399,9 +395,8 @@ octagon, doublecircle, doubleoctagon, tripleoctagon &amp;#x66F4;&amp;#x591A;&amp
 &lt;/p&gt;
 
 
-
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp10.png&quot; alt=&quot;graphviz-exp10.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;graphviz-exp10.png&quot; alt=&quot;graphviz-exp10.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -437,7 +432,7 @@ octagon, doublecircle, doubleoctagon, tripleoctagon &amp;#x66F4;&amp;#x591A;&amp
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp11.png&quot; alt=&quot;graphviz-exp11.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;graphviz-exp11.png&quot; alt=&quot;graphviz-exp11.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -471,13 +466,30 @@ octagon, doublecircle, doubleoctagon, tripleoctagon &amp;#x66F4;&amp;#x591A;&amp
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-7&quot;&gt;
 &lt;p&gt;
 &amp;#x505A;PPT&amp;#x65F6;&amp;#xFF0C;&amp;#x4F7F;&amp;#x7528;graphviz&amp;#x5BFC;&amp;#x51FA;&amp;#x4E3A;PDF&amp;#xFF0C;&amp;#x77AC;&amp;#x95F4;&amp;#x9AD8;&amp;#x5927;&amp;#x4E0A;&amp;#xFF0C;&amp;#x548C;org-mode&amp;#x7B80;&amp;#x76F4;&amp;#x662F;&amp;#x7EDD;&amp;#x914D;&amp;#xFF0C;&amp;#x76F4;&amp;#x63A5;&amp;#x5BFC;&amp;#x51FA;&amp;#x5230;blog&amp;#x3002;
+&amp;#x672C;&amp;#x6587;&amp;#x4E2D;&amp;#x5185;&amp;#x5BB9;&amp;#x5927;&amp;#x591A;&amp;#x6765;&amp;#x81EA;&lt;a href=&quot;http://casatwy.com/shi-yong-dotyu-yan-he-graphvizhui-tu-fan-yi.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x4F7F;&amp;#x7528;DOT&amp;#x8BED;&amp;#x8A00;&amp;#x548C;Graphviz&amp;#x7ED8;&amp;#x56FE;(&amp;#x7FFB;&amp;#x8BD1;)&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-8&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-8&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;8&lt;/span&gt; &amp;#x8BB8;&amp;#x53EF;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-8&quot;&gt;
+&lt;p&gt;
+Copyright (C) 2013, 2014 Tony Ballantyne. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+&lt;/p&gt;
+
+&lt;p&gt;
+Code in this document is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+&lt;/p&gt;
+
+&lt;p&gt;
+This code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p class=&quot;date&quot;&gt;Date: 2016-05-16 Mon 16:23&lt;/p&gt;
 &lt;p class=&quot;author&quot;&gt;Author: WindWang2&lt;/p&gt;
-&lt;p class=&quot;date&quot;&gt;Created: 2016-05-18 Wed 14:03&lt;/p&gt;
+&lt;p class=&quot;date&quot;&gt;Created: 2016-05-18 Wed 14:16&lt;/p&gt;
 &lt;p class=&quot;creator&quot;&gt;&lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)&lt;/p&gt;
 &lt;p class=&quot;validation&quot;&gt;&lt;a href=&quot;http://validator.w3.org/check?uri=referer&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Validate&lt;/a&gt;&lt;/p&gt;
 </content>
