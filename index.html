@@ -288,7 +288,7 @@ Graphviz &#x662F;&#x5927;&#x540D;&#x9F0E;&#x9F0E;&#x7684;&#x8D1D;&#x5C14;&#x5B9E
 </p>
 <div class="org-src-container">
 
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install graphviz</span><br><span class="line">brew install graphviz --with-bindings</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install graphviz</span><br><span class="line"><span class="comment"># Or</span></span><br><span class="line">brew install graphviz --with-bindings</span><br></pre></td></tr></table></figure>
 </div>
 </div>
 </div>
@@ -372,7 +372,7 @@ Graphviz &#x662F;&#x5927;&#x540D;&#x9F0E;&#x9F0E;&#x7684;&#x8D1D;&#x5C14;&#x5B9E
 
 
 <div class="figure">
-<p><img src="./assets/img/graphviz-exp2.png" alt="graphviz-exp2.png">
+<p><img src="../assets/img/graphviz-exp2.png" alt="graphviz-exp2.png">
 </p>
 </div>
 </div>
@@ -383,10 +383,10 @@ Graphviz &#x662F;&#x5927;&#x540D;&#x9F0E;&#x9F0E;&#x7684;&#x8D1D;&#x5C14;&#x5B9E
 <div class="org-src-container">
 
 <figure class="highlight"><table><tr><td class="code"><pre><span class="line">digraph name{
-a-&gt;b;
-b-&gt;c;
-b-&gt;d;
-d-&gt;a;
+    a-&gt;b;
+    b-&gt;c;
+    b-&gt;d;
+    d-&gt;a;
 }</span><br></pre></td></tr></table></figure>
 </div>
 
@@ -412,12 +412,12 @@ d-&gt;a;
 <div class="org-src-container">
 
 <figure class="highlight"><table><tr><td class="code"><pre><span class="line">digraph name{
-a [label=&quot;Teacher&quot;]
-b [label=&quot;Pupil&quot;]
-a-&gt;b [label = &quot;Instrcutions&quot;, fontcolor=darkgreen];
-b-&gt;c;
-b-&gt;d;
-d-&gt;a;
+    a [label=&quot;Teacher&quot;]
+    b [label=&quot;Pupil&quot;]
+    a-&gt;b [label = &quot;Instrcutions&quot;, fontcolor=darkgreen];
+    b-&gt;c;
+    b-&gt;d;
+    d-&gt;a;
 }</span><br></pre></td></tr></table></figure>
 </div>
 
@@ -439,12 +439,12 @@ d-&gt;a;
 <div class="org-src-container">
 
 <figure class="highlight"><table><tr><td class="code"><pre><span class="line">digraph name{
-a [label=&quot;Teacher&quot;, color=Blue, fontcolor=Red, fontsize=24, shape=box]
-b [label=&quot;Pupil&quot;, color=Green, fontcolor=Pink]
-a-&gt;b [label = &quot;Instrcutions&quot;, fontcolor=darkgreen];
-b-&gt;c;
-b-&gt;d;
-d-&gt;a;
+    a [label=&quot;Teacher&quot;, color=Blue, fontcolor=Red, fontsize=24, shape=box]
+    b [label=&quot;Pupil&quot;, color=Green, fontcolor=Pink]
+    a-&gt;b [label = &quot;Instrcutions&quot;, fontcolor=darkgreen];
+    b-&gt;c;
+    b-&gt;d;
+    d-&gt;a;
 }</span><br></pre></td></tr></table></figure>
 </div>
 
@@ -467,14 +467,14 @@ d-&gt;a;
 <div class="org-src-container">
 
 <figure class="highlight"><table><tr><td class="code"><pre><span class="line">digraph name{
-a [label=&quot;Teacher&quot;, color=Blue, fontcolor=Red, fontsize=24, shape=box]
-b [label=&quot;Pupil&quot;, color=Green, fontcolor=Pink]
-c [label=&quot;student&quot;, shape=box, style=filled, fillcolor=yellow]
-d [label=&quot;School&quot;, shape=octagon, style=filled, fillcolor=yellow]
-a-&gt;b [label = &quot;Instrcutions&quot;, fontcolor=darkgreen];
-b-&gt;c;
-b-&gt;d;
-d-&gt;a;
+    a [label=&quot;Teacher&quot;, color=Blue, fontcolor=Red, fontsize=24, shape=box]
+    b [label=&quot;Pupil&quot;, color=Green, fontcolor=Pink]
+    c [label=&quot;student&quot;, shape=box, style=filled, fillcolor=yellow]
+    d [label=&quot;School&quot;, shape=octagon, style=filled, fillcolor=yellow]
+    a-&gt;b [label = &quot;Instrcutions&quot;, fontcolor=darkgreen];
+    b-&gt;c;
+    b-&gt;d;
+    d-&gt;a;
 }</span><br></pre></td></tr></table></figure>
 </div>
 
@@ -509,16 +509,16 @@ octagon, doublecircle, doubleoctagon, tripleoctagon &#x66F4;&#x591A;&#x7684;&#x5
 <div class="org-src-container">
 
 <figure class="highlight"><table><tr><td class="code"><pre><span class="line">digraph name{
-nodesep=1.0 //&#x589E;&#x52A0;&#x8282;&#x70B9;&#x4E4B;&#x95F4;&#x7684;&#x8DDD;&#x79BB;
-node [color=Red, fontname=Courier, shape=box] //&#x6240;&#x6709;&#x8282;&#x70B9;
-edge [color=Blue, style=dashed] //&#x6240;&#x6709;&#x8FDE;&#x63A5;&#x7EBF;
-a [label=&quot;Teacher&quot;, color=Blue, fontcolor=Red, fontsize=24, shape=box]
-b [label=&quot;Pupil&quot;, color=Green, fontcolor=Pink]
-a-&gt;b [label = &quot;Instrcutions&quot;, fontcolor=darkgreen];
-b-&gt;{c d e}
-d-&gt;{f g}
-c-&gt;h
-e-&gt;m
+    nodesep=1.0 //&#x589E;&#x52A0;&#x8282;&#x70B9;&#x4E4B;&#x95F4;&#x7684;&#x8DDD;&#x79BB;
+    node [color=Red, fontname=Courier, shape=box] //&#x6240;&#x6709;&#x8282;&#x70B9;
+    edge [color=Blue, style=dashed] //&#x6240;&#x6709;&#x8FDE;&#x63A5;&#x7EBF;
+    a [label=&quot;Teacher&quot;, color=Blue, fontcolor=Red, fontsize=24, shape=box]
+    b [label=&quot;Pupil&quot;, color=Green, fontcolor=Pink]
+    a-&gt;b [label = &quot;Instrcutions&quot;, fontcolor=darkgreen];
+    b-&gt;{c d e}
+    d-&gt;{f g}
+    c-&gt;h
+    e-&gt;m
 }</span><br></pre></td></tr></table></figure>
 </div>
 
@@ -538,19 +538,19 @@ e-&gt;m
 <div class="org-src-container">
 
 <figure class="highlight"><table><tr><td class="code"><pre><span class="line">digraph name{
-nodesep=1.0 //&#x589E;&#x52A0;&#x8282;&#x70B9;&#x4E4B;&#x95F4;&#x7684;&#x8DDD;&#x79BB;
-node [color=Red, fontname=Courier, shape=box] //&#x6240;&#x6709;&#x8282;&#x70B9;
-edge [color=Blue, style=dashed] //&#x6240;&#x6709;&#x8FDE;&#x63A5;&#x7EBF;
-a [label=&quot;Teacher&quot;, color=Blue, fontcolor=Red, fontsize=24, shape=box]
-b [label=&quot;Pupil&quot;, color=Green, fontcolor=Pink]
-a-&gt;b [label = &quot;Instrcutions&quot;, fontcolor=darkgreen];
-b-&gt;{c d e}
-d-&gt;{f g}
-c-&gt;h
-e-&gt;m
-m-&gt;j
-{rank=same; h f g j}
-}</span><br></pre></td></tr></table></figure>
+    nodesep=1.0 //&#x589E;&#x52A0;&#x8282;&#x70B9;&#x4E4B;&#x95F4;&#x7684;&#x8DDD;&#x79BB;
+    node [color=Red, fontname=Courier, shape=box] //&#x6240;&#x6709;&#x8282;&#x70B9;
+    edge [color=Blue, style=dashed] //&#x6240;&#x6709;&#x8FDE;&#x63A5;&#x7EBF;
+    a [label=&quot;Teacher&quot;, color=Blue, fontcolor=Red, fontsize=24, shape=box]
+    b [label=&quot;Pupil&quot;, color=Green, fontcolor=Pink]
+    a-&gt;b [label = &quot;Instrcutions&quot;, fontcolor=darkgreen];
+    b-&gt;{c d e}
+    d-&gt;{f g}
+    c-&gt;h
+    e-&gt;m
+    m-&gt;j
+    {rank=same; h f g j}
+    }</span><br></pre></td></tr></table></figure>
 </div>
 
 <p>
@@ -671,12 +671,16 @@ m-&gt;j
 </li>
 <li>&#x4F7F;&#x7528;&lt;s [TAB], &#x751F;&#x6210;&#x4EE3;&#x7801;&#x5757;&#x3002;
 </li>
-<li>&#x53C2;&#x6570;&#x4F7F;&#x7528;+dot :file ./img/example1.png :cmdline -Kdot -Tpng+
+<li>&#x53C2;&#x6570;&#x4F7F;&#x7528; dot :file ./img/example1.png :cmdline -Kdot -Tpng
 </li>
 </ol>
-<pre class="example">
-#+begin_src dot :file ./img/example1.png :cmdline -Kdot -Tpng
-</pre>
+<div class="org-src-container">
+
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">#+begin_src dot :file ./img/example1.png :cmdline -Kdot -Tpng</span><br></pre></td></tr></table></figure>
+</div>
+<p>
+#+end<sub>src</sub>
+</p>
 <ol class="org-ol">
 <li>&#x5728;&#x4EE3;&#x7801;&#x5757;&#x4F7F;&#x7528;C-c C-c&#x6267;&#x884C;&#x4EE3;&#x7801;
 </li>
@@ -692,7 +696,7 @@ m-&gt;j
 </div>
 </div>
 
-Last Updated 2016-05-18 Wed 10:53.<br>Render by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 24.5.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
+Last Updated 2016-05-18 Wed 10:59.<br>Render by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 24.5.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
 
       
     </div>
