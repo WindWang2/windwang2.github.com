@@ -47,7 +47,7 @@
     <link href="windwang2.github.io/2016-05-16-learning-graphviz/"/>
     <id>windwang2.github.io/2016-05-16-learning-graphviz/</id>
     <published>2016-05-16T08:23:00.000Z</published>
-    <updated>2016-05-18T02:37:16.000Z</updated>
+    <updated>2016-05-18T02:53:48.000Z</updated>
     
     <content type="html">
 
@@ -82,7 +82,7 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 &lt;div class=&quot;org-src-container&quot;&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;graph name {
-a -- b;
+    a -- b;
 }&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/div&gt;
 
@@ -148,7 +148,7 @@ a -- b;
 &lt;/div&gt;
 
 &lt;p&gt;
-&amp;#x7ED3;&amp;#x679C;
+&amp;#x7ED3;&amp;#x679C;:
 &lt;/p&gt;
 
 
@@ -172,6 +172,16 @@ d-&amp;gt;a;
 &lt;/div&gt;
 
 &lt;p&gt;
+&amp;#x7ED3;&amp;#x679C;&amp;#xFF1A;
+&lt;/p&gt;
+
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp3.png&quot; alt=&quot;graphviz-exp3.png&quot;&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
 &lt;span class=&quot;underline&quot;&gt;&amp;#x6CE8;&amp;#x610F;&amp;#x4E0A;&amp;#x9762;&amp;#x7684;&amp;#x201C;digraph&amp;#x201D;&amp;#xFF0C;&amp;#x8868;&amp;#x793A;&amp;#x6709;&amp;#x5411;&amp;#x56FE;&lt;/span&gt;
 &lt;/p&gt;
 &lt;/div&gt;
@@ -191,6 +201,16 @@ b-&amp;gt;d;
 d-&amp;gt;a;
 }&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/div&gt;
+
+&lt;p&gt;
+&amp;#x7ED3;&amp;#x679C;&amp;#xFF1A;
+&lt;/p&gt;
+
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp4.png&quot; alt=&quot;graphviz-exp4.png&quot;&gt;
+&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -207,6 +227,17 @@ b-&amp;gt;c;
 b-&amp;gt;d;
 d-&amp;gt;a;
 }&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+&amp;#x7ED3;&amp;#x679C;&amp;#xFF1A;
+&lt;/p&gt;
+
+
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp5.png&quot; alt=&quot;graphviz-exp5.png&quot;&gt;
+&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -226,6 +257,16 @@ b-&amp;gt;c;
 b-&amp;gt;d;
 d-&amp;gt;a;
 }&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+&amp;#x7ED3;&amp;#x679C;&amp;#xFF1A;
+&lt;/p&gt;
+
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp6.png&quot; alt=&quot;graphviz-exp6.png&quot;&gt;
+&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;
@@ -263,6 +304,16 @@ e-&amp;gt;m
 &lt;/div&gt;
 
 &lt;p&gt;
+&amp;#x7ED3;&amp;#x679C;&amp;#xFF1A;
+&lt;/p&gt;
+
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp7.png&quot; alt=&quot;graphviz-exp7.png&quot;&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
 &amp;#x5C42;&amp;#x7EA7;
 &lt;/p&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
@@ -281,6 +332,17 @@ e-&amp;gt;m
 m-&amp;gt;j
 {rank=same; h f g j}
 }&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+&amp;#x7ED3;&amp;#x679C;&amp;#xFF1A;
+&lt;/p&gt;
+
+
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp8.png&quot; alt=&quot;graphviz-exp8.png&quot;&gt;
+&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -304,6 +366,16 @@ m-&amp;gt;j
     S3 -&amp;gt; S2 [ label = &amp;quot;Release Trigger&amp;quot; ]
 }&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/div&gt;
+
+&lt;p&gt;
+&amp;#x7ED3;&amp;#x679C;&amp;#xFF1A;
+&lt;/p&gt;
+
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp9.png&quot; alt=&quot;graphviz-exp9.png&quot;&gt;
+&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-5-2-2&quot; class=&quot;outline-4&quot;&gt;
@@ -319,6 +391,17 @@ m-&amp;gt;j
     store1:f1 -&amp;gt; proc1:f0;
     enti1-&amp;gt; proc1:f0;
 }&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+&amp;#x7ED3;&amp;#x679C;&amp;#xFF1A;
+&lt;/p&gt;
+
+
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp10.png&quot; alt=&quot;graphviz-exp10.png&quot;&gt;
+&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;org-src-container&quot;&gt;
@@ -345,6 +428,16 @@ m-&amp;gt;j
     proc1 -&amp;gt; store2
     store2 -&amp;gt; proc1 
 }&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+&amp;#x7ED3;&amp;#x679C;&amp;#xFF1A;
+&lt;/p&gt;
+
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/graphviz-exp11.png&quot; alt=&quot;graphviz-exp11.png&quot;&gt;
+&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -380,7 +473,7 @@ m-&amp;gt;j
 &lt;/div&gt;
 &lt;/div&gt;
 
-Last Updated 2016-05-18 Wed 10:37.&lt;br&gt;Render by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
+Last Updated 2016-05-18 Wed 10:53.&lt;br&gt;Render by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
 </content>
     
     <summary type="html">
