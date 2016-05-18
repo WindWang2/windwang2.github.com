@@ -4,9 +4,9 @@
   <subtitle>Follow the heart</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="windwang2.cn/"/>
+  <link href="windwang2.win/"/>
   <updated>2016-05-18T09:17:13.000Z</updated>
-  <id>windwang2.cn/</id>
+  <id>windwang2.win/</id>
   
   <author>
     <name>王继成</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Learning Graphviz</title>
-    <link href="windwang2.cn/2016/05-16-learning-graphviz/"/>
-    <id>windwang2.cn/2016/05-16-learning-graphviz/</id>
+    <link href="windwang2.win/2016/05-16-learning-graphviz/"/>
+    <id>windwang2.win/2016/05-16-learning-graphviz/</id>
     <published>2016-05-16T08:23:00.000Z</published>
     <updated>2016-05-18T09:17:13.000Z</updated>
     
@@ -477,12 +477,12 @@ This code is distributed in the hope that it will be useful, but WITHOUT ANY WAR
     
     </summary>
     
-      <category term="learn" scheme="windwang2.cn/categories/learn/"/>
+      <category term="learn" scheme="windwang2.win/categories/learn/"/>
     
     
-      <category term="software" scheme="windwang2.cn/tags/software/"/>
+      <category term="software" scheme="windwang2.win/tags/software/"/>
     
-      <category term="graphviz" scheme="windwang2.cn/tags/graphviz/"/>
+      <category term="graphviz" scheme="windwang2.win/tags/graphviz/"/>
     
   </entry>
   
