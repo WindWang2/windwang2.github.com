@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="windwang2.github.io/"/>
-  <updated>2016-05-18T09:15:28.000Z</updated>
+  <updated>2016-05-18T09:17:13.000Z</updated>
   <id>windwang2.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="windwang2.github.io/2016/05-16-learning-graphviz/"/>
     <id>windwang2.github.io/2016/05-16-learning-graphviz/</id>
     <published>2016-05-16T08:23:00.000Z</published>
-    <updated>2016-05-18T09:15:28.000Z</updated>
+    <updated>2016-05-18T09:17:13.000Z</updated>
     
     <content type="html">
 
@@ -97,7 +97,7 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 
 &lt;p&gt;
 &amp;#x7ED3;&amp;#x679C;&amp;#xFF1A;
-&lt;img src=&quot;file:///images/graphviz/graphviz-exp1.png&quot; alt=&quot;graphviz-exp1.png&quot;&gt;
+&lt;img src=&quot; /images/graphviz/graphviz-exp1.png&quot; alt=&quot;graphviz-exp1.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -122,7 +122,7 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;images/graphviz/graphviz-exp2.png&quot; alt=&quot;graphviz-exp2.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot; /images/graphviz/graphviz-exp2.png&quot; alt=&quot;graphviz-exp2.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -146,7 +146,7 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;images/graphviz/graphviz-exp3.png&quot; alt=&quot;graphviz-exp3.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot; /images/graphviz/graphviz-exp3.png&quot; alt=&quot;graphviz-exp3.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -177,7 +177,7 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;file:///images/graphviz/graphviz-exp4.png&quot; alt=&quot;graphviz-exp4.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot; /images/graphviz/graphviz-exp4.png&quot; alt=&quot;graphviz-exp4.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -204,7 +204,7 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;file:///images/graphviz/graphviz-exp5.png&quot; alt=&quot;graphviz-exp5.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot; /images/graphviz/graphviz-exp5.png&quot; alt=&quot;graphviz-exp5.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -233,7 +233,7 @@ Graphviz &amp;#x662F;&amp;#x5927;&amp;#x540D;&amp;#x9F0E;&amp;#x9F0E;&amp;#x7684
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;file:///images/graphviz/graphviz-exp6.png&quot; alt=&quot;graphviz-exp6.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot; /images/graphviz/graphviz-exp6.png&quot; alt=&quot;graphviz-exp6.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -278,7 +278,7 @@ octagon, doublecircle, doubleoctagon, tripleoctagon &amp;#x66F4;&amp;#x591A;&amp
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;file:///images/graphviz/graphviz-exp7.png&quot; alt=&quot;graphviz-exp7.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot; /images/graphviz/graphviz-exp7.png&quot; alt=&quot;graphviz-exp7.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -309,7 +309,7 @@ octagon, doublecircle, doubleoctagon, tripleoctagon &amp;#x66F4;&amp;#x591A;&amp
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;file:///images/graphviz/graphviz-exp8.png&quot; alt=&quot;graphviz-exp8.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot; /images/graphviz/graphviz-exp8.png&quot; alt=&quot;graphviz-exp8.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -342,7 +342,7 @@ octagon, doublecircle, doubleoctagon, tripleoctagon &amp;#x66F4;&amp;#x591A;&amp
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;file:///images/graphviz/graphviz-exp9.png&quot; alt=&quot;graphviz-exp9.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot; /images/graphviz/graphviz-exp9.png&quot; alt=&quot;graphviz-exp9.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -369,7 +369,7 @@ octagon, doublecircle, doubleoctagon, tripleoctagon &amp;#x66F4;&amp;#x591A;&amp
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;file:///images/graphviz/graphviz-exp10.png&quot; alt=&quot;graphviz-exp10.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot; /images/graphviz/graphviz-exp10.png&quot; alt=&quot;graphviz-exp10.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -405,7 +405,7 @@ octagon, doublecircle, doubleoctagon, tripleoctagon &amp;#x66F4;&amp;#x591A;&amp
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;file:///images/graphviz/graphviz-exp11.png&quot; alt=&quot;graphviz-exp11.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot; /images/graphviz/graphviz-exp11.png&quot; alt=&quot;graphviz-exp11.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -462,7 +462,7 @@ This code is distributed in the hope that it will be useful, but WITHOUT ANY WAR
 
 &lt;p class=&quot;date&quot;&gt;Date: 2016-05-16 Mon 16:23&lt;/p&gt;
 &lt;p class=&quot;author&quot;&gt;Author: WindWang2&lt;/p&gt;
-&lt;p class=&quot;date&quot;&gt;Created: 2016-05-18 Wed 17:15&lt;/p&gt;
+&lt;p class=&quot;date&quot;&gt;Created: 2016-05-18 Wed 17:17&lt;/p&gt;
 &lt;p class=&quot;creator&quot;&gt;&lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)&lt;/p&gt;
 &lt;p class=&quot;validation&quot;&gt;&lt;a href=&quot;http://validator.w3.org/check?uri=referer&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Validate&lt;/a&gt;&lt;/p&gt;
 </content>
