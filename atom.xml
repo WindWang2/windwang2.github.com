@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="windwang2.win/"/>
-  <updated>2016-05-19T14:52:07.000Z</updated>
+  <updated>2016-06-12T03:36:38.000Z</updated>
   <id>windwang2.win/</id>
   
   <author>
@@ -14,6 +14,170 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ssh 反向隧道连接学校内部服务器</title>
+    <link href="windwang2.win/2016/06-12-auto_ssh_service/"/>
+    <id>windwang2.win/2016/06-12-auto_ssh_service/</id>
+    <published>2016-06-12T02:28:00.000Z</published>
+    <updated>2016-06-12T03:36:38.000Z</updated>
+    
+    <content type="html">
+
+
+&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; &amp;#x4ECB;&amp;#x7ECD;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;p&gt;
+&amp;#x901A;&amp;#x5E38;&amp;#x8BBF;&amp;#x95EE;&amp;#x5185;&amp;#x7F51;&amp;#x7684;&amp;#x670D;&amp;#x52A1;&amp;#x5668;&amp;#xFF0C;&amp;#x53EA;&amp;#x9700;&amp;#x6253;&amp;#x5F00;&amp;#x670D;&amp;#x8DEF;&amp;#x7531;&amp;#x5668;&amp;#x7684;&amp;#x7AEF;&amp;#x53E3;&amp;#x6620;&amp;#x5C04;&amp;#x5C31;&amp;#x884C;&amp;#x4E86;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x5728;&amp;#x5B66;&amp;#x6821;&amp;#x7684;&amp;#x7F51;&amp;#x5173;&amp;#x5BF9;&amp;#x8BBF;&amp;#x95EE;&amp;#x7684;
+ssh &amp;#x8FDB;&amp;#x884C;&amp;#x4E86;&amp;#x9650;&amp;#x5236;&amp;#xFF0C;&amp;#x4E0D;&amp;#x80FD;&amp;#x8BBF;&amp;#x95EE;&amp;#x3002;&amp;#x56E0;&amp;#x6B64;&amp;#x672C;&amp;#x6587;&amp;#x4F7F;&amp;#x7528; ssh &amp;#x5EFA;&amp;#x7ACB;&amp;#x53CD;&amp;#x5411;&amp;#x96A7;&amp;#x9053;&amp;#xFF0C;&amp;#x66F2;&amp;#x7EBF;&amp;#x6551;&amp;#x56FD;&amp;#x3002;&amp;#x597D;&amp;#x5904;&amp;#x662F;&amp;#x53EF;&amp;#x4EE5;&amp;#x8BBF;&amp;#x95EE;&amp;#x5E76;
+&amp;#x4E14;&amp;#x4E0D;&amp;#x7528;&amp;#x8FDB;&amp;#x884C;&amp;#x7AEF;&amp;#x53E3;&amp;#x6620;&amp;#x5C04;&amp;#xFF0C;&amp;#x7F3A;&amp;#x70B9;&amp;#x4E5F;&amp;#x5F88;&amp;#x660E;&amp;#x663E;&amp;#x9700;&amp;#x8981;&amp;#x4E00;&amp;#x53F0;&amp;#x516C;&amp;#x7F51;&amp;#x4E3B;&amp;#x673A;&amp;#x3002;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; &amp;#x51C6;&amp;#x5907;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+&lt;p&gt;
+&amp;#x516C;&amp;#x7F51;&amp;#x4E3B;&amp;#x673A;&amp;#xFF08;&amp;#x817E;&amp;#x8BAF;&amp;#x4E91;&amp;#xFF09;&amp;#x4E00;&amp;#x53F0; A&amp;#xFF0C;&amp;#x5185;&amp;#x7F51;&amp;#x4E3B;&amp;#x673A; B(&amp;#x80FD;&amp;#x591F;&amp;#x8FDE;&amp;#x63A5;&amp;#x5916;&amp;#x7F51;)&amp;#xFF0C;&amp;#x5916;&amp;#x7F51;&amp;#x4E3B;&amp;#x673A; C
+&lt;/p&gt;
+
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;file:///images/structure.png&quot; alt=&quot;structure.png&quot;&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+&amp;#x5C31;&amp;#x662F;&amp;#x8BF4;&amp;#x5728;&amp;#x5185;&amp;#x7F51; B &amp;#x8FDE;&amp;#x63A5; A &amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#xFF0C;&amp;#x5B9E;&amp;#x9645;&amp;#x4E0A;&amp;#x5DF2;&amp;#x7ECF;&amp;#x5EFA;&amp;#x7ACB;&amp;#x4E86; A-&amp;gt;B &amp;#x7684;&amp;#x8FDE;&amp;#x63A5;&amp;#x3002;&amp;#x628A; A &amp;#x7684;&amp;#x7AEF;&amp;#x53E3;&amp;#x6620;&amp;#x5C04;&amp;#x5230; B &amp;#x7684;&amp;#x7AEF;
+&amp;#x53E3;&amp;#x4E0A;&amp;#xFF0C;&amp;#x901A;&amp;#x8FC7; C &amp;#x8BBF;&amp;#x95EE;&amp;#x88AB;&amp;#x6620;&amp;#x5C04; A &amp;#x7684;&amp;#x7AEF;&amp;#x53E3;&amp;#xFF0C;&amp;#x8FDB;&amp;#x800C;&amp;#x8BBF;&amp;#x95EE; B&amp;#x3002;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;i&gt;&amp;#x6CE8;&amp;#xFF1A;&amp;#x817E;&amp;#x8BAF;&amp;#x4E91;&amp;#x5B66;&amp;#x751F;&amp;#x4E00;&amp;#x4E2A;&amp;#x6708; 1 &amp;#x5143;&amp;#xFF0C;&amp;#x8FD8;&amp;#x662F;&amp;#x975E;&amp;#x5E38;&amp;#x539A;&amp;#x9053;&amp;#x7684;&amp;#x3002;&lt;/i&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-3&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; &amp;#x5EFA;&amp;#x7ACB;&amp;#x53CD;&amp;#x5411;&amp;#x96A7;&amp;#x9053;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-3-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-3-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.1&lt;/span&gt; &amp;#x4E91;&amp;#x4E3B;&amp;#x673A; A&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-1&quot;&gt;
+&lt;ol class=&quot;org-ol&quot;&gt;
+&lt;li&gt;&amp;#x5728;&amp;#x817E;&amp;#x8BAF;&amp;#x4E91;&amp;#x4E0A;&amp;#x7533;&amp;#x8BF7;&amp;#x4E00;&amp;#x53F0;&amp;#x4E3B;&amp;#x673A;&amp;#xFF0C;&amp;#x9009;&amp;#x62E9;&amp;#x5BC6;&amp;#x5319;&amp;#x8BBF;&amp;#x95EE;&amp;#xFF08;&amp;#x4E5F;&amp;#x53EF;&amp;#x4EE5;&amp;#x9009;&amp;#x62E9;&amp;#x5BC6;&amp;#x7801;&amp;#x65B9;&amp;#x6CD5;&amp;#xFF09;&amp;#x3002;&amp;#x5EFA;&amp;#x7ACB;&amp;#x5BC6;&amp;#x94A5;&amp;#xFF0C;&amp;#x5E76;&amp;#x4E0B;&amp;#x8F7D;&amp;#x5BC6;&amp;#x5319;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+&amp;#x6587;&amp;#x4EF6;&amp;#x3002;
+&lt;/p&gt;
+&lt;ol class=&quot;org-ol&quot;&gt;
+&lt;li&gt;&amp;#x4FEE;&amp;#x6539;&amp;#x4E3B;&amp;#x673A;&amp;#x7684; sshd &amp;#x914D;&amp;#x7F6E;&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C; &lt;b&gt;/etc/ssh/sshd&lt;sub&gt;config&lt;/sub&gt;&lt;/b&gt; &amp;#xFF0C;&amp;#x6DFB;&amp;#x52A0;&amp;#x4E0B;&amp;#x9762;&amp;#x5185;&amp;#x5BB9;&amp;#xFF1A;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;GatewayPorts yes&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&amp;#x7136;&amp;#x540E;&amp;#x91CD;&amp;#x542F; sshd &amp;#x670D;&amp;#x52A1;&amp;#x3002;
+A &amp;#x4E0A;&amp;#x9762;&amp;#x7684;&amp;#x64CD;&amp;#x4F5C;&amp;#x5B8C;&amp;#x6210;&amp;#x4E86;&amp;#x3002;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-3-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-3-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.2&lt;/span&gt; &amp;#x5185;&amp;#x7F51;&amp;#x4E3B;&amp;#x673A; B&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-2&quot;&gt;
+&lt;ol class=&quot;org-ol&quot;&gt;
+&lt;li&gt;&amp;#x5728; &lt;b&gt;&lt;i&gt;lib/systemd/system&lt;/i&gt;&lt;/b&gt; &amp;#x4E2D;&amp;#x5EFA;&amp;#x7ACB; &lt;b&gt;autossh.service&lt;/b&gt; &amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x5E76;&amp;#x8BBE;&amp;#x7F6E;&amp;#x6743;&amp;#x9650; 644&amp;#x3002;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+&amp;#x5177;&amp;#x4F53;&amp;#x5982;&amp;#x4E0B;&amp;#xFF1A;
+&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;[Unit]
+Description=Auto SSH Tunnel
+After=network-online.target
+
+[Service]
+User=&amp;lt;B &amp;#x7684;&amp;#x7528;&amp;#x6237;&amp;gt;
+Type=simple
+ExecStart=/bin/autossh -p 22 -M 6777 -NR &amp;apos;*:6766:127.0.0.1:22&amp;apos; usera@&amp;#x516C;&amp;#x7F51;&amp;#x4E3B;&amp;#x673A; A &amp;#x7684; IP -i /home/autossh/.ssh/id_rsa
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+WantedBy=graphical.target&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;ol class=&quot;org-ol&quot;&gt;
+&lt;li&gt;&amp;#x8BBE;&amp;#x7F6E;&amp;#x4E3A;&amp;#x81EA;&amp;#x52A8;&amp;#x542F;&amp;#x52A8;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo systemctl enable autossh
+# &amp;#x9A6C;&amp;#x4E0A;&amp;#x542F;&amp;#x52A8;
+sudo service autossh start&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-3-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-3-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.3&lt;/span&gt; &amp;#x5916;&amp;#x7F51;&amp;#x4E3B;&amp;#x673A; C&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-3&quot;&gt;
+&lt;p&gt;
+&amp;#x8FD9;&amp;#x6837;&amp;#x901A;&amp;#x8FC7;&amp;#x8BBF;&amp;#x95EE;&amp;#x4E91;&amp;#x4E3B;&amp;#x673A; A &amp;#x7684; 6766 &amp;#x7AEF;&amp;#x53E3;&amp;#x5C31;&amp;#x53EF;&amp;#x4EE5;&amp;#x8BBF;&amp;#x95EE;&amp;#x5230; B
+&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ssh -p 6766 B &amp;#x7684;&amp;#x7528;&amp;#x6237;@A &amp;#x7684; IP&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-4&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; &amp;#x540E;&amp;#x8BB0;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
+&lt;p&gt;
+&amp;#x6211;&amp;#x5BF9;&amp;#x7F51;&amp;#x7EDC;&amp;#x65B9;&amp;#x9762;&amp;#x4E00;&amp;#x7A8D;&amp;#x4E0D;&amp;#x901A;&amp;#xFF0C;&amp;#x672C;&amp;#x6587;&amp;#x4EC5;&amp;#x4F5C;&amp;#x4E3A;&amp;#x7B14;&amp;#x8BB0;&amp;#x548C;&amp;#x64CD;&amp;#x4F5C;&amp;#x5907;&amp;#x4EFD;&amp;#x3002;
+&amp;#x6587;&amp;#x4E2D;&amp;#x5927;&amp;#x90E8;&amp;#x5206;&amp;#x5185;&amp;#x5BB9;&amp;#x6765;&amp;#x81EA; &lt;a href=&quot;http://arondight.me/2016/02/17/%E4%BD%BF%E7%94%A8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://arondight.me/2016/02/17/%E4%BD%BF%E7%94%A8&lt;/a&gt; SSH &amp;#x53CD;&amp;#x5411;&amp;#x96A7;&amp;#x9053;&amp;#x8FDB;&amp;#x884C;&amp;#x5185;&amp;#x7F51;&amp;#x7A7F;&amp;#x900F;/
+&amp;#x5728;&amp;#x6B64;&amp;#x81F4;&amp;#x8C22;&amp;#xFF01;&amp;#xFF01;&amp;#xFF01;
+&amp;#x66F4;&amp;#x591A;&amp;#x7684;&amp;#x5185;&amp;#x5BB9;&amp;#x8BF7;&amp;#x53C2;&amp;#x8003;&amp;#x4E0A;&amp;#x8FF0; blog&amp;#x3002;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;date&quot;&gt;Date: 06/12/16 10:28 AM&lt;/p&gt;
+&lt;p class=&quot;author&quot;&gt;Author: WindWang2&lt;/p&gt;
+&lt;p class=&quot;date&quot;&gt;Created: 2016-06-12 Sun 11:38&lt;/p&gt;
+&lt;p class=&quot;creator&quot;&gt;&lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)&lt;/p&gt;
+&lt;p class=&quot;validation&quot;&gt;&lt;a href=&quot;http://validator.w3.org/check?uri=referer&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Validate&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      
+
+
+&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; &amp;#x4ECB;&amp;#x7ECD;&lt;/h2&gt;
+&lt;div cl
+    
+    </summary>
+    
+      <category term="tools" scheme="windwang2.win/categories/tools/"/>
+    
+    
+      <category term="ssh" scheme="windwang2.win/tags/ssh/"/>
+    
+      <category term="tools" scheme="windwang2.win/tags/tools/"/>
+    
+  </entry>
   
   <entry>
     <title>[转]How to learn Machine learning</title>
