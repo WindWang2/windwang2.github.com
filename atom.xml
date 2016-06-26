@@ -716,4 +716,72 @@ This code is distributed in the hope that it will be useful, but WITHOUT ANY WAR
     
   </entry>
   
+  <entry>
+    <title>CNN和LSTM后向传播推导(待续)</title>
+    <link href="windwang2.win/2016/05-16-Learning-CNN-BP/"/>
+    <id>windwang2.win/2016/05-16-Learning-CNN-BP/</id>
+    <published>2016-05-16T08:23:00.000Z</published>
+    <updated>2016-06-26T08:00:41.000Z</updated>
+    
+    <content type="html">
+
+&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;Introduction&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-2&quot;&gt;CNN&amp;#x7684;&amp;#x540E;&amp;#x5411;&amp;#x4F20;&amp;#x64AD;&amp;#x63A8;&amp;#x5BFC;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+&lt;p&gt;
+Why Using cross-entropy 
+$$
+loss=-\frac{1}{m}*\sum_{i=1}^{m}\hat{y}_i\log{f(x_i)}+\lambda\sum_{k=1}^{L}sum(\|W_k\|^2)
+$$
+\(x_i\) &amp;#x8868;&amp;#x793A;&amp;#x7B2C; i &amp;#x4E2A;&amp;#x8F93;&amp;#x5165;&amp;#x9879;&amp;#xFF0C;\(\hat{j_i}\) &amp;#x8868;&amp;#x793A;&amp;#x771F;&amp;#x503C;
+&lt;/p&gt;
+
+&lt;p&gt;
+$$
+l(f(x),y)=-\sum_{c}1_{(y=c)}\log{f(x)_c}=-\log{f(x)_y}
+$$
+&amp;#x5176;&amp;#x4E2D; \(c\) &amp;#x8868;&amp;#x793A;&amp;#x7C7B;&amp;#x522B;&amp;#xFF0C;\(f(x)_c=p(y=c|x)\)
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-3&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-3&quot;&gt;LSTM&amp;#x7684;&amp;#x540E;&amp;#x5411;&amp;#x4F20;&amp;#x64AD;&amp;#x63A8;&amp;#x5BFC;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-3-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-3-1&quot;&gt;RNN&amp;#x7684;&amp;#x540E;&amp;#x5411;&amp;#x4F20;&amp;#x64AD;&amp;#x63A8;&amp;#x5BFC;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-3-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-3-2&quot;&gt;LSTM&amp;#x7684;&amp;#x540E;&amp;#x5411;&amp;#x4F20;&amp;#x64AD;&amp;#x63A8;&amp;#x5BFC;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;date&quot;&gt;Date: 2016-05-16 Mon 16:23&lt;/p&gt;
+&lt;p class=&quot;author&quot;&gt;Author: WindWang2&lt;/p&gt;
+&lt;p class=&quot;date&quot;&gt;Created: 2016-06-26 Sun 16:01&lt;/p&gt;
+&lt;p class=&quot;creator&quot;&gt;&lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)&lt;/p&gt;
+&lt;p class=&quot;validation&quot;&gt;&lt;a href=&quot;http://validator.w3.org/check?uri=referer&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Validate&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      
+
+&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;Introduction&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-2&quot; class=&quot;outl
+    
+    </summary>
+    
+      <category term="learn" scheme="windwang2.win/categories/learn/"/>
+    
+    
+      <category term="CNNNOTES" scheme="windwang2.win/tags/CNNNOTES/"/>
+    
+  </entry>
+  
 </feed>
